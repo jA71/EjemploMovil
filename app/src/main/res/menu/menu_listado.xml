@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/buscar"
+        android:iconTintMode="add"
+        android:title="@string/search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/user"
+        android:icon="@drawable/person"
+        android:title="@string/user"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/opciones"
+        android:iconTint="@color/black"
+        android:iconTintMode="add"
+        android:title="@string/settings"></item>
+
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/exit"
+        android:iconTint="@color/black"
+        android:iconTintMode="add"
+        android:title="@string/logout"></item>
+</menu>
