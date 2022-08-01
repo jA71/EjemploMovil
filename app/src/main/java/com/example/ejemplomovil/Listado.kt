@@ -41,6 +41,12 @@ class Listado : AppCompatActivity() {
 //        createNotificationChannel()
         crearCanal()
         cargarListenerButtom()
+
+        startService(Intent(this, ServicioAbierto::class.java))
+    }
+
+    private fun alHacerClick(){
+
     }
 
     fun crearCanal() {

@@ -39,6 +39,13 @@
         app:layout_constraintTop_toBottomOf="@id/do_notification"
         android:text="hacer notificacion 2"/>
 
+    <Button
+        android:id="@+id/button_des"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/do_notification_two"
+        android:text="Destruir"/>
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

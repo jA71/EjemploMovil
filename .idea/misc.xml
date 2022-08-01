@@ -4,8 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/layout/activity_buscador.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/activity_listado.xml" value="0.13229166666666667" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.13229166666666667" />
         <entry key="app/src/main/res/layout/fragment_fragmento_buscador.xml" value="0.2682291666666667" />
         <entry key="app/src/main/res/layout/fragmento_buscador.xml" value="0.28125" />
+        <entry key="app/src/main/res/menu/menu_listado.xml" value="0.28229166666666666" />
       </map>
     </option>
   </component>
